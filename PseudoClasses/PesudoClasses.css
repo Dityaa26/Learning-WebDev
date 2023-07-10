@@ -1,0 +1,49 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+/* Unvisited Link */
+a:link{
+    text-decoration: none;
+}
+
+/* Hovered Link */
+a:hover{
+    font-weight: bold;
+    color: orangered;
+}
+
+/* Active Link */
+a:active{
+    color: yellow;
+}
+
+/* Visited Link */
+a:visited{
+    color: red;
+}
+
+/* Checked */
+input[type="checkbox"]:checked{
+    outline: 2px solid red;
+}
+
+/* Disabled Input Text */
+input[type="text"]:disabled{
+    background-color: yellow;
+}
+
+/* Focus Input Text */
+#cool:focus{
+    background-color: lightblue;
+}
+
+/* Nth Child */
+p:nth-child(3){
+    color: red;
+}
