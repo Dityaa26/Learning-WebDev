@@ -1,0 +1,37 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+/* Combinator Selector */
+/* Combinator selectors enable us to select elements in different ways; Grouping elements together, selecting elements that comes immediately before/after and select elements that are placed inside other elements */
+
+/* Selecting multiple elements */
+p ,button{
+    /* color: red; */
+}
+
+/* Selects All Inside Of Desendent */
+#outterDiv p {
+    color: blue;
+}
+
+/* Select Direct Desendent */
+#innerDiv > p{
+    color: green;
+}
+
+/* Select all element placed immediately after an element */
+h3 + p{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+/* Selects all elements placed immediately before an element */
+p ~ h4{
+    color: orangered;
+}

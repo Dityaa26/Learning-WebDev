@@ -1,0 +1,29 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Element Selector */
+p{
+    color: orangered;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+
+}
+
+/* ID Selector */
+#id{
+    color: forestgreen;
+    font-family: monospace;
+}
+
+/* Class Selector */
+.class{
+    color: dodgerblue;
+    font-weight: 400;
+    font-size: 18px;
+}
