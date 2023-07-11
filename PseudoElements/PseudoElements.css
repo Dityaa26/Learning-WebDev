@@ -1,0 +1,31 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+#paragraph::first-letter{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#paragraph::first-line{
+    color: blue;
+}
+
+::selection{
+    color: red;
+    background-color: cyan;
+}
+
+.plus::after{
+    content: "+";
+}
+
+.plus::before{
+    content: "-";
+}
