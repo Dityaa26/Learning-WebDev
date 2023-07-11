@@ -1,0 +1,46 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+#container{
+    color: red;
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+    color: orange;
+}
+
+/* INHERIT */
+/* Sets value to inherit from container */
+.inherit{
+    color: inherit;
+}
+
+/* INITIAL */
+/* Sets value back to the default browser style */
+.initial{
+    color: initial;
+}
+
+/* UNSET */
+/* If the elements is naturally inherited acts like inherit, otherwise acts like initial */
+.unset{
+    color: unset;
+}
+
+/* .not{
+    color: unset;
+} */
+
+/* REVERT */
+/* If user has defined style, revert back to it otherwise use default browser style */
+.revert{
+    color:revert;
+}
