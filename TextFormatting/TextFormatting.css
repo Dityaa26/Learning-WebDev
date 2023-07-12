@@ -1,0 +1,55 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+#sentence{
+    /* Text Align */
+    text-align: center;
+    text-align: right;
+    text-align: left;
+    text-align: justify;
+
+    /* Text Decoration */
+    text-decoration: underline wavy lime;
+    /* text-decoration-line: overline;
+    text-decoration-color: blue;
+    text-decoration-style: dashed; */
+
+    /* Text Indent */
+    text-indent: 20px;
+
+    /* Text Transform */
+    text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+}
+
+#paragraph{
+    /* text-indent: 20px; */
+
+    /* Text Overflow */
+    overflow: hidden;
+    white-space: nowrap;
+    border: 2px solid limegreen;
+    background-color: lightblue;
+    text-overflow: ellipsis;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 5px yellow;
+    word-spacing: 1px;
+    letter-spacing: 5px;
+}
