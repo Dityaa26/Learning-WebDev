@@ -1,0 +1,26 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+#red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    /* border-box put the padding and border inside the total width and height with it padding and border will be add outside the box */
+}
+
+#blue{
+    width: 50%;
+    height: 200px;
+    background-color: blue;
+}
