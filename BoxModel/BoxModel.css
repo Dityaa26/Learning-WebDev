@@ -1,0 +1,28 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+p{
+    background-color: dodgerblue;
+    display: inline-block;
+    padding: 50px;
+    border: 10px solid green;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+h3{
+    margin-top: 100px;
+}
+
+div{
+    border: 1px solid red;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
