@@ -1,0 +1,30 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    border: 5px dotted black;
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1681813952538-5fb12a58e448?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80);
+    /* background-size: cover; */
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: padding-box;
+}
+
+/* body{
+    background-image: url(https://images.unsplash.com/photo-1681813952538-5fb12a58e448?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+} */
+
