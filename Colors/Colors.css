@@ -1,0 +1,53 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.frame{
+    height: 200px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.circle{
+    height: 68%;
+    width: 90%;
+    border: 1px solid black;
+    margin: 5px auto;
+    border-radius: 100%;
+}
+
+h3{
+    text-align: center;
+    margin: 0;
+}
+
+#colorName{
+    background-color: dodgerblue;
+}
+
+#hex{
+    background-color: #67ffca;
+}
+
+#rgb{
+    background-color: rgb(76, 76, 212);
+}
+
+#rgba{
+    background-color: rgba(245, 168, 3, 0.5);
+}
+
+#hsl{
+background-color: hsl(3, 100%, 61%);
+}
+
+#hsla{
+    background-color: hsla(3, 96%, 51%, 0.5);
+}
