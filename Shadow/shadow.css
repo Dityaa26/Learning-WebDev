@@ -1,0 +1,43 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+    color: lime;
+    text-shadow: 0px -1px black, 1px 0px black, 0px 1px black, -1px 0 black;
+}
+
+#text-shadow{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+
+    /* text-shadow: [right] [down] [blur] [color]; */
+
+    text-shadow: 2px 2px 1px red;
+}
+
+#box-shadow{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 5px 5px grey;
+}
+
+#box-shadow:hover{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 20px auto;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-shadow: none;
+    transition: .2s;
+}
