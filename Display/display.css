@@ -1,0 +1,36 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+p, h1, h3, h4{
+    border: 2px solid dodgerblue;
+    /* display: none; */ /* it remove the elements*/
+    visibility: hidden; /*it just hide the content but keep the space*/
+
+}
+
+span, a{
+    border: 2px solid red;
+    /* using inline-block we can specify width of inline elements */
+    display: inline-block;
+    width: 200px;
+}
+
+#sentence{
+    background-color: dodgerblue;
+    border: 2px solid black;
+    color: white;
+}
+
+#sentence span{
+    color: black;
+    margin: 5px;
+    background-color: yellow;
+    font-weight: bold;
+}
