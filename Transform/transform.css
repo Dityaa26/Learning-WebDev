@@ -1,0 +1,29 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 200px auto;
+    background-color: dodgerblue;
+    color: #ffffff;
+    /* transform: rotate(45deg);
+    transform: skew(20deg);
+    transform: skewY(50deg);
+    transform: translateX(50px); */
+    /* transform: matrix(2,1,1,2,70,-150); */
+
+}
+
+div:hover{
+    cursor: pointer;
+    transition: all 2s linear;
+    transform: rotateY(360deg);
+}
