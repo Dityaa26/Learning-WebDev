@@ -1,0 +1,26 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+div{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+
+    /* border-width: 10px;
+    border-color: red;
+    border-style: ridge; */
+
+    /* border: 10px ridge red; */
+
+    border-width: 10px 5px 2px 1px;
+    border-style: solid ridge dotted dashed;
+    border-color: yellow orangered red green;
+    
+}
