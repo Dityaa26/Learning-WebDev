@@ -1,0 +1,55 @@
+/* Universal Selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    /* animation-name: square;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running; */
+    animation: square 4s linear 1s infinite alternate backwards;
+}
+
+@keyframes square {
+    0%{
+        background-color: red;
+        left: 0;
+        top: 0;
+    }   
+    25%{
+        background-color: gold;
+        left: 500px;
+        top: 0;
+    }
+    50%{
+        background-color: lime;
+        left: 500px;
+        top: 500px;
+    }
+    75%{
+        background-color: dodgerblue;
+        left: 0;
+        top: 500px;
+    }
+    100%{
+        background-color: purple;
+        left: 0;
+        top: 0;
+    }
+}
