@@ -1,10 +1,10 @@
 // JavaScript Equality
 
 const num1 = 6;
-const num2 = 10;
+const num2 = '6';
 
-const value = num1 == num2;
-const value2 = num1 === num2
+const value = num1 != num2;
+const value2 = num1 !== num2
 
 console.log(value) //false
-console.log(value2) //false
+console.log(value2) //true
