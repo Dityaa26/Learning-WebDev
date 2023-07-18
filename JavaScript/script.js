@@ -1,22 +1,10 @@
-// JavaScript Objects
+// JavaScript Equality
 
-const person = {
-  firstName: "abc",
-  lastName: "pqr",
-  age: 22,
-  skills: ["git", "github", "aws", "sql"],
-  language: ["javascript", "cpp", "python"],
-  detail: function () {
-    console.log(this.firstName + " " + this.lastName);
-  },
-};
+const num1 = 6;
+const num2 = '6';
 
-person.detail();
+const value = num1 == num2;
+const value2 = num1 === num2
 
-// Accessing object items
-
-console.log(person.age)
-person.firstName = "ABC"
-console.log(person)
-console.log(person.skills)
-console.log(person.skills[2]);
+console.log(value)
+console.log(value2)
