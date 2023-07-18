@@ -1,14 +1,14 @@
-function Add(num1,num2){
-    return num1+num2;
-}
+// JavaScript Objects
 
-let n = Add(2,3);
-console.log(n)
+const person = {
+  firstName: "abc",
+  lastName: "pqr",
+  age: 22,
+  skills: ["git", "github", "aws", "sql"],
+  language: ["javascript", "cpp", "python"],
+  detail: function () {
+    console.log(this.firstName + " " + this.lastName);
+  },
+};
 
-// Function Expression
-
-const add = function (num1,num2){
-    return num1+num2;
-}
-
-console.log(add(2,4))
+person.detail();
