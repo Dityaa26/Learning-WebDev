@@ -12,3 +12,11 @@ const person = {
 };
 
 person.detail();
+
+// Accessing object items
+
+console.log(person.age)
+person.firstName = "ABC"
+console.log(person)
+console.log(person.skills)
+console.log(person.skills[2]);
