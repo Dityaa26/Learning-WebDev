@@ -1,32 +1,16 @@
-let value = 'a'-'b'
-console.log("value : " + value)
+// Strings
 
-let x = 'a' + 4
-console.log("x : " + x)
+let text = 'String variable'
 
-let y = 4 + 'a'
-console.log("y : " + y)
-
-let z = 4 * 'a'
-console.log("z : " + z)
-
-let p = 'a' * 4
-console.log("p : " + p)
-
-let q = 'a' - 4
-console.log("q : " + q)
-
-let r = 4 - 'a'
-console.log("r : " + r)
-
-let s = '10' - 'a'
-console.log("s : " + s)
-
-let t = '10' * 'a'
-console.log("t : " + t)
-
-let u = '10' * '10'
-console.log('u : ' + u)
-
-let v = "10" / "10";
-console.log("v : " + v);
+console.log(text.length)
+console.log(text.toUpperCase())
+console.log(text.toLowerCase())
+console.log(text[2])
+console.log(text.charAt(5).toUpperCase())
+console.log(text)
+console.log(text.indexOf('ria'))
+console.log(text.indexOf("rin"));
+console.log(text.includes(' var'))
+console.log(text.includes('rav'))
+console.log(text.slice(0,2))
+console.log(text.slice(-2))
