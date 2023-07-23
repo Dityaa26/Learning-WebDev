@@ -1,17 +1,21 @@
-// Callback function
+// Array Methods
 
-function morning(name){
-    return `Good morning ${name}`
+// const number = [0, 1, 2, 3, 4]
+
+// for(let i=0; i<number.length; i++){
+//   console.log(number[i])
+// }
+
+// forEach (does not return new array)
+
+const people = [
+  { name: "abc", age: 20, position: "developer" },
+  { name: "pqr", age: 21, position: "designer" },
+  { name: "xyz", age: 27, position: "boss" },
+];
+
+function showPerson(person){
+  console.log(person.position.toUpperCase())
 }
 
-function afternoon(name) {
-  return `Good afternoon ${name}`;
-}
-
-function greet(name, cbf){
-    const myName = 'Aditya'
-    console.log(`${cbf(name)}, my name is ${myName}`)
-}
-
-greet('abhinav', morning)
-greet('aakash', afternoon)
+people.forEach(showPerson)
