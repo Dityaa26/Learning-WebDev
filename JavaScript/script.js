@@ -1,31 +1,31 @@
 // Array Methods
 
-// Map
+// Filter
 // Does return a new array
-// Does not change size of orginal array
-// uses values from original array when making new one
+// Can manipulate the size of orginal array
+// return based on condition
 
 const people = [
   { name: "abc", age: 20, position: "developer" },
   { name: "pqr", age: 21, position: "designer" },
+  { name: "lmn", age: 25, position: "manager" },
   { name: "xyz", age: 27, position: "boss" },
 ];
 
-const ages = people.map(function(person){
-  return person.age
+const youngPeople = people.filter(function(person){
+  return person.age<=25; 
 })
 
-const newPeople = people.map(function(person){
-  return {
-    firstName:person.name.toUpperCase(),
-    newAge: person.age+1,
-  }
+console.log(youngPeople)
+
+const developers = people.filter((person) => {
+  return person.position === 'developer'
 })
 
-const names = people.map(function(person){
-  return `<h1>${person.name}</h1>`
-})
+console.log(developers)
 
-document.body.innerHTML = names.join('')
+const srDevelopers = people.filter((person) => {
+  return person.position === "senior developer";
+});
 
-console.log(name)
+console.log(srDevelopers);
