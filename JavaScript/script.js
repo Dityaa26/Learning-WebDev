@@ -1,12 +1,9 @@
 // Array Methods
 
-// const number = [0, 1, 2, 3, 4]
-
-// for(let i=0; i<number.length; i++){
-//   console.log(number[i])
-// }
-
-// forEach (does not return new array)
+// Map
+// Does return a new array
+// Does not change size of orginal array
+// uses values from original array when making new one
 
 const people = [
   { name: "abc", age: 20, position: "developer" },
@@ -14,12 +11,21 @@ const people = [
   { name: "xyz", age: 27, position: "boss" },
 ];
 
-function showPerson(person){
-  console.log(person.position.toUpperCase())
-}
-
-// people.forEach(showPerson)
-
-people.forEach(function(person){
-  console.log(person.name.toUpperCase()) // Anonymous function
+const ages = people.map(function(person){
+  return person.age
 })
+
+const newPeople = people.map(function(person){
+  return {
+    firstName:person.name.toUpperCase(),
+    newAge: person.age+1,
+  }
+})
+
+const names = people.map(function(person){
+  return `<h1>${person.name}</h1>`
+})
+
+document.body.innerHTML = names.join('')
+
+console.log(name)
