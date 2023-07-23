@@ -18,4 +18,8 @@ function showPerson(person){
   console.log(person.position.toUpperCase())
 }
 
-people.forEach(showPerson)
+// people.forEach(showPerson)
+
+people.forEach(function(person){
+  console.log(person.name.toUpperCase()) // Anonymous function
+})
