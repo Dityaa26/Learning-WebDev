@@ -1,31 +1,23 @@
 // Array Methods
 
-// Filter
-// Does return a new array
-// Can manipulate the size of orginal array
-// return based on condition
+// Reduce
+// iterates, callback function
+// reduces to a single value - number, array ,object
+// 1 parameter ('acc') - total of all calculation
+// 2 parameter ('curr) - current iteration/ value
 
 const people = [
-  { name: "abc", age: 20, position: "developer" },
-  { name: "pqr", age: 21, position: "designer" },
-  { name: "lmn", age: 25, position: "manager" },
-  { name: "xyz", age: 27, position: "boss" },
+  { id: 1, name: "abc", age: 20, position: "developer", salary: 200 },
+  { id: 2, name: "pqr", age: 21, position: "designer", salary: 300 },
+  { id: 3, name: "lmn", age: 25, position: "manager", salary: 400 },
+  { id: 4, name: "xyz", age: 27, position: "boss", salary: 500 },
 ];
 
-const youngPeople = people.filter(function(person){
-  return person.age<=25; 
-})
+const total = people.reduce((acc, curr) => {
+  console.log(`total ${acc}`);
+  console.log(`current money: ${curr.salary}`);
+  acc += curr.salary
+  return acc;
+}, 0);
 
-console.log(youngPeople)
-
-const developers = people.filter((person) => {
-  return person.position === 'developer'
-})
-
-console.log(developers)
-
-const srDevelopers = people.filter((person) => {
-  return person.position === "senior developer";
-});
-
-console.log(srDevelopers);
+console.log(total)
