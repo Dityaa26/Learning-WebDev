@@ -1,23 +1,20 @@
-// Array Methods
+// Math
 
-// Reduce
-// iterates, callback function
-// reduces to a single value - number, array ,object
-// 1 parameter ('acc') - total of all calculation
-// 2 parameter ('curr) - current iteration/ value
+// const number = 4.568875
+// const result = Math.floor(number)
 
-const people = [
-  { id: 1, name: "abc", age: 20, position: "developer", salary: 200 },
-  { id: 2, name: "pqr", age: 21, position: "designer", salary: 300 },
-  { id: 3, name: "lmn", age: 25, position: "manager", salary: 400 },
-  { id: 4, name: "xyz", age: 27, position: "boss", salary: 500 },
-];
+// const number = 4.568875;
+// const result = Math.ceil(number);
 
-const total = people.reduce((acc, curr) => {
-  console.log(`total ${acc}`);
-  console.log(`current money: ${curr.salary}`);
-  acc += curr.salary
-  return acc;
-}, 0);
+// const number = 25;
+// const result = Math.sqrt(number);
 
-console.log(total)
+// const result = Math.PI
+
+// const result = Math.min(4,5,6,9)
+
+// const result = Math.max(4, 5, 6, 9);
+
+const result = Math.floor(Math.random()*10+1)
+
+console.log(result)
