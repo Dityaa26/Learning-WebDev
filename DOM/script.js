@@ -8,3 +8,11 @@ button.style.color = 'yellow';
 
 
 console.log(button.style)
+
+const title = document.getElementById('title')
+console.log(title)
+title.style.color = 'red'
+
+button.style.backgroundColor = 'green'
+button.style.cursor = 'pointer'
+button.style.borderRadius = "20px"
